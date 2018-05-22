@@ -17,5 +17,10 @@ function nameToAttributes(arr){
   );
 }
 
-function attributesToPhrase(){
+function attributesToPhrase(arr){
+  return arr.map(
+    function(obj){
+      return (obj.name + " is from " + obj.hometown);
+    }
+  );
 }
