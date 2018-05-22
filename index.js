@@ -1,8 +1,8 @@
 function lowerCaseDrivers(){
 }
 
-function lowerCaseDrivers(){
+function nameToAttributes(){
 }
 
-function lowerCaseDrivers(){
+function attributesToPhrase(){
 }
