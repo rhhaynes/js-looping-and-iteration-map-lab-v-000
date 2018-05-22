@@ -10,7 +10,9 @@ function nameToAttributes(arr){
   return arr.map(
     function(elem){
       const nameArr = elem.split(" ");
-      return Object.assign({}, {firstName: nameArr[0], lastName: nameArr[1]});
+      return Object.assign({},
+        {firstName: nameArr[0], lastName: nameArr[1]}
+      );
     }
   );
 }
