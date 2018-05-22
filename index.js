@@ -6,7 +6,12 @@ function lowerCaseDrivers(arr){
   );
 }
 
-function nameToAttributes(){
+function nameToAttributes(arr){
+  return arr.map(
+    function(elem){
+      return Object.assign({}, );
+    }
+  );
 }
 
 function attributesToPhrase(){
