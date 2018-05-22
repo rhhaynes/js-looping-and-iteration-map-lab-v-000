@@ -1,5 +1,9 @@
 function lowerCaseDrivers(arr){
-  return arr.map(function(elem){elem.toLowerCase();});
+  return arr.map(
+    function(elem){
+      return elem.toLowerCase();
+    }
+  );
 }
 
 function nameToAttributes(){
